@@ -1,12 +1,18 @@
-# Assign values to variables a and b
-a = 1
-b = 2
+def add(a, b):
+    """My addition function
 
-# Import the add function from add_0.py
-from add_0 import add
+    Args:
+        a: first integer
+        b: second integer
 
-# Calculate the result using the add function
-result = add(a, b)
+    Returns:
+        The return value. a + b
+    """
+    return a + b
 
-# Print the result using string formatting
-print("{} + {} = {}".format(a, b, result))
+if __name__ == "__main__":
+    # If this script is run directly, perform the addition and print the result
+    a = 1
+    b = 2
+    result = add(a, b)
+    print("{} + {} = {}".format(a, b, result))

@@ -10,7 +10,6 @@ def add(a, b):
     """
     return a + b
 
-# If the module is not being imported, execute the following code
 if __name__ == "__main__":
     # Assign values to variables a and b
     a = 1

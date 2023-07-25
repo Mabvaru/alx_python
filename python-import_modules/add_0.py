@@ -8,8 +8,4 @@ def add(a, b):
     Returns:
         The return value. a + b
     """
-    return (a + b)
-
-if __name__ == "__main__":
-    # Code that will only be executed when the file is run directly
-    pass
+    return a + b

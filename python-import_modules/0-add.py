@@ -15,38 +15,48 @@ if __name__ == "__main__":
     a = 1
     b = 2
 
-    # Calculate the result using the add function and print the output
+    # Calculate the result using the add function
     result = add(a, b)
+
+    # Print the output for the test case
     print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
     # Define variables a and b
     a = 10
     b = 30
 
-    # Calculate the result using the add function and print the output
+    # Calculate the result using the add function
     result = add(a, b)
+
+    # Print the output for the test case
     print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
     # Define variables a and b
     a = -10
     b = 30
 
-    # Calculate the result using the add function and print the output
+    # Calculate the result using the add function
     result = add(a, b)
+
+    # Print the output for the test case
     print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
     # Define variables a and b
     a = -10
     b = -30
 
-    # Calculate the result using the add function and print the output
+    # Calculate the result using the add function
     result = add(a, b)
+
+    # Print the output for the test case
     print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
     # Define variables a and b
     a = 5
     b = "H"
 
-    # Calculate the result using the add function and print the output
+    # Calculate the result using the add function
     result = add(a, b)
+
+    # Print the output for the test case
     print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))

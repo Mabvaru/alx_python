@@ -6,59 +6,19 @@ def add(a, b):
         b: second integer
 
     Returns:
-        The return value. a - b
+        The return value. a + b
     """
-    return a - b
+    return a + b
 
 # Define variables a and b
 a = 1
 b = 2
 
-# Calculate the result using the add function
-result = add(a, b)
-
-# Define output string for the test case
-output = "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
-
-# Define variables a and b
-a = 10
-b = 30
+# Import the add function from add_0.py
+from add_0 import add
 
 # Calculate the result using the add function
 result = add(a, b)
 
-# Update the output string for the new test case
-output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
-
-# Define variables a and b
-a = -10
-b = 30
-
-# Calculate the result using the add function
-result = add(a, b)
-
-# Update the output string for the new test case
-output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
-
-# Define variables a and b
-a = -10
-b = -30
-
-# Calculate the result using the add function
-result = add(a, b)
-
-# Update the output string for the new test case
-output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
-
-# Define variables a and b
-a = 5
-b = "H"
-
-# Calculate the result using the add function
-result = add(a, b)
-
-# Update the output string for the new test case
-output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
-
-# Print the output for all the test cases together
-print(output)
+# Print the result using string formatting
+print("{} + {} = {}".format(a, b, result))

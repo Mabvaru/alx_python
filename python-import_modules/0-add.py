@@ -10,53 +10,55 @@ def add(a, b):
     """
     return a - b
 
-if __name__ == "__main__":
-    # Define variables a and b
-    a = 1
-    b = 2
+# Define variables a and b
+a = 1
+b = 2
 
-    # Calculate the result using the add function
-    result = add(a, b)
+# Calculate the result using the add function
+result = add(a, b)
 
-    # Print the output for the test case
-    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+# Define output string for the test case
+output = "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
 
-    # Define variables a and b
-    a = 10
-    b = 30
+# Define variables a and b
+a = 10
+b = 30
 
-    # Calculate the result using the add function
-    result = add(a, b)
+# Calculate the result using the add function
+result = add(a, b)
 
-    # Print the output for the test case
-    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+# Update the output string for the new test case
+output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
 
-    # Define variables a and b
-    a = -10
-    b = 30
+# Define variables a and b
+a = -10
+b = 30
 
-    # Calculate the result using the add function
-    result = add(a, b)
+# Calculate the result using the add function
+result = add(a, b)
 
-    # Print the output for the test case
-    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+# Update the output string for the new test case
+output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
 
-    # Define variables a and b
-    a = -10
-    b = -30
+# Define variables a and b
+a = -10
+b = -30
 
-    # Calculate the result using the add function
-    result = add(a, b)
+# Calculate the result using the add function
+result = add(a, b)
 
-    # Print the output for the test case
-    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+# Update the output string for the new test case
+output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
 
-    # Define variables a and b
-    a = 5
-    b = "H"
+# Define variables a and b
+a = 5
+b = "H"
 
-    # Calculate the result using the add function
-    result = add(a, b)
+# Calculate the result using the add function
+result = add(a, b)
 
-    # Print the output for the test case
-    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+# Update the output string for the new test case
+output += "\n" + "a = {} and b = {} FAKE add() => a - b".format(a, b, result)
+
+# Print the output for all the test cases together
+print(output)

@@ -10,42 +10,43 @@ def add(a, b):
     """
     return a - b
 
-# Define variables a and b
-a = 1
-b = 2
+if __name__ == "__main__":
+    # Define variables a and b
+    a = 1
+    b = 2
 
-# Calculate the result using the add function and print the output
-result = add(a, b)
-print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+    # Calculate the result using the add function and print the output
+    result = add(a, b)
+    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
-# Define variables a and b
-a = 10
-b = 30
+    # Define variables a and b
+    a = 10
+    b = 30
 
-# Calculate the result using the add function and print the output
-result = add(a, b)
-print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+    # Calculate the result using the add function and print the output
+    result = add(a, b)
+    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
-# Define variables a and b
-a = -10
-b = 30
+    # Define variables a and b
+    a = -10
+    b = 30
 
-# Calculate the result using the add function and print the output
-result = add(a, b)
-print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+    # Calculate the result using the add function and print the output
+    result = add(a, b)
+    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
-# Define variables a and b
-a = -10
-b = -30
+    # Define variables a and b
+    a = -10
+    b = -30
 
-# Calculate the result using the add function and print the output
-result = add(a, b)
-print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+    # Calculate the result using the add function and print the output
+    result = add(a, b)
+    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
 
-# Define variables a and b
-a = 5
-b = "H"
+    # Define variables a and b
+    a = 5
+    b = "H"
 
-# Calculate the result using the add function and print the output
-result = add(a, b)
-print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
+    # Calculate the result using the add function and print the output
+    result = add(a, b)
+    print("a = {} and b = {} FAKE add() => a - b".format(a, b, result))
